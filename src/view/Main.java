@@ -21,10 +21,6 @@ public class Main {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
-        for (PhoneDirectory p:list
-             ) {
-            System.out.println(p);
-        }
         menu(manager);
 
     }

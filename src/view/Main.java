@@ -29,16 +29,16 @@ public class Main {
 
     }
     public static void menu(PhoneDirectoryManager manager){
-        System.out.println("Danh bạ Điện Thoại");
-        System.out.println("Nhấn 1: Xem Danh Sách: ");
-        System.out.println("Nhấn 2: Thêm mới: ");
-        System.out.println("Nhấn 3: Cập nhật: ");
-        System.out.println("Nhấn 4: Xoá: ");
-        System.out.println("Nhấn 5: Tìm Kiếm: ");
-        System.out.println("Nhấn 6: Xem Danh Sách: ");
+
         int choice = 0;
         while (choice!=6){
-
+            System.out.println("_____Danh bạ Điện Thoại______");
+            System.out.println("Nhấn 1: Xem Danh Sách: ");
+            System.out.println("Nhấn 2: Thêm mới: ");
+            System.out.println("Nhấn 3: Cập nhật: ");
+            System.out.println("Nhấn 4: Xoá: ");
+            System.out.println("Nhấn 5: Tìm Kiếm: ");
+            System.out.println("Nhấn 6: Xem Danh Sách: ");
             Scanner scanner = new Scanner(System.in);
             System.out.println("Nhập vào lựa chọn của bạn: ");
             choice = scanner.nextInt();

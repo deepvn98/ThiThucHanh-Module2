@@ -75,7 +75,7 @@ public class PhoneDirectoryManager {
         PhoneDirectory phoneDirectory = null;
         for (int i =0; i<list.size();i++){
             if (list.get(i).getPhoneNumber().equals(numberphone)){
-                return list.get(i);
+                return phoneDirectory =  list.get(i);
             }
         }return phoneDirectory;
     }

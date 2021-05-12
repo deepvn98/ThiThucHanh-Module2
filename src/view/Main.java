@@ -38,7 +38,7 @@ public class Main {
             System.out.println("Nhấn 3: Cập nhật: ");
             System.out.println("Nhấn 4: Xoá: ");
             System.out.println("Nhấn 5: Tìm Kiếm: ");
-            System.out.println("Nhấn 6: Xem Danh Sách: ");
+            System.out.println("Nhấn 6: Thoát ");
             Scanner scanner = new Scanner(System.in);
             System.out.println("Nhập vào lựa chọn của bạn: ");
             choice = scanner.nextInt();
@@ -67,7 +67,7 @@ public class Main {
                 }
                 case 3:
                 {
-                    System.out.println("Nhập Danh bạ bạn muốn sửa");
+                    System.out.println("Nhập số điện thoai bạn muốn sửa");
                     Scanner scanner1 = new Scanner(System.in);
                     String numberPhone = scanner1.nextLine();
                     PhoneDirectory phoneDirectory= manager.find(numberPhone);
